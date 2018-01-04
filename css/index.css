@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #eeeeee;
+  background-color: #292E31;
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+main section {
+  padding: 75px 150px;
+}
+
+main section:first-child {
+  padding: 150px;
+  padding-top: 40vh;
+}
+
+main section:first-child h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #c95d63;
+}
+
+main section h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+main section a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+main section p {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+main section:first-child a:visited {
+  color: #eeeeee;
+}
+
+main section:first-child a:hover {
+  color: #516dc1;
+  text-decoration: none;
+}
+
+main section ul {
+  list-style: none;
+}
+
+main section ul li {
+  font-size: 1.5rem;
+  padding-right: 6px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 620px) {
+  main section:first-child {
+    padding: 20% 15%;
+  }
+
+  main section:first-child h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+
+  main section h3 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-top: 15px;
+  }
+
+  main section {
+    padding: 10% 50px;
+  }
+}
